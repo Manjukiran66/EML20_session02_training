@@ -1,0 +1,3 @@
+_target_: model.cfar_module.LitResnet
+
+lr: 0.05
