@@ -1,3 +1,4 @@
+#!/bin/bash
 
 cd eml20_session02_training
 
