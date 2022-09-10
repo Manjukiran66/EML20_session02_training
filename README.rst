@@ -1,7 +1,7 @@
 ========================
 EML20_session02_training
 ========================
-PyTorch deep learning project made easy.
+PyTorch lightening with hydra, cookies cutter template
 
 .. contents:: Table of Contents
    :depth: 2
@@ -15,8 +15,6 @@ Folder Structure
   │
   ├── eml20_session02_training/
   │    │
-  │    ├── cli.py - command line interface
-  │    ├── main.py - main script to start train/test
   │    │
   │    ├── data_loader/ - anything about data loading goes here
   │    │   └── cfar_datamodule.py
@@ -29,7 +27,7 @@ Folder Structure
   │        ├── rich_utils.py - class for train logging
   │        ├── utils.py - class for Tensorboard visualization support
   │
-  ├── logging.yml - logging configuration
+  ├── entrypoint.sh - entry point script with train and eval script execution for docker container
   │
   ├── data/ - directory for storing input data
   │
